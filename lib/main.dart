@@ -22,7 +22,10 @@ class home extends StatelessWidget {
         child: Text(
           "hello world!!!",
           style: TextStyle(
-              fontWeight: FontWeight.w900, fontFamily: 'Indie', fontSize: 40),
+              color: Colors.deepOrange,
+              fontWeight: FontWeight.w900,
+              fontFamily: 'Indie',
+              fontSize: 40),
         ),
       ),
       floatingActionButton: FloatingActionButton(
