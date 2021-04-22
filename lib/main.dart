@@ -19,8 +19,7 @@ class home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Image.network(
-            "https://images.unsplash.com/photo-1611505700922-57892ff55bbb?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
+        child: Image.asset("assets\images\book.jfif"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
