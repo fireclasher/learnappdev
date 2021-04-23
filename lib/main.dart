@@ -19,19 +19,7 @@ class home extends StatelessWidget {
         backgroundColor: Colors.amber,
         centerTitle: true,
       ),
-      body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 2),
-        margin: EdgeInsets.all(100),
-        color: Colors.black,
-        child: Text(
-          "hello",
-          style: TextStyle(
-              color: Colors.white,
-              fontFamily: "indie",
-              fontSize: 30,
-              fontWeight: FontWeight.w900),
-        ),
-      ),
+      body: Padding(padding: EdgeInsets.all(30), child: Text('hello')),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text("Hey!"),
