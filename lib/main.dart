@@ -19,18 +19,19 @@ class home extends StatelessWidget {
         backgroundColor: Colors.amber,
         centerTitle: true,
       ),
-      body: Center(
-          child: RaisedButton.icon(
-        onPressed: () {
-          print('you clicked me');
-        },
-        icon: Icon(Icons.mail),
-        label: Text(
-          "mail karo yaar!!!",
-          style: TextStyle(fontFamily: 'indie', fontWeight: FontWeight.bold),
+      body: Container(
+        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 2),
+        margin: EdgeInsets.all(100),
+        color: Colors.black,
+        child: Text(
+          "hello",
+          style: TextStyle(
+              color: Colors.white,
+              fontFamily: "indie",
+              fontSize: 30,
+              fontWeight: FontWeight.w900),
         ),
-        color: Colors.amber,
-      )),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text("Hey!"),
