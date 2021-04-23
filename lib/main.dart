@@ -19,8 +19,11 @@ class home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Image.asset("assets\images\book.jfif"),
-      ),
+          child: Icon(
+        Icons.access_alarms,
+        color: Colors.red,
+        size: 50,
+      )),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text("Hey!"),
